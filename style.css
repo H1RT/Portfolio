@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+}
+
+/*Portfolio*/
+.grid-1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 5%;
+  text-align: center;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.portHeader {
+  text-align: center;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+.tema {
+  display: flex;
+  height: 35vw;
+  width: 35vw;
+  border-radius: 10%;
+  margin: 0 auto;
+}
+
+.tema p {
+  color: white;
+  font-size: 30px;
+  margin: auto;
+}
+
+.temaTwo {
+  background-image: url(images/motherboard1.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.temaThree {
+  background-image: url(images/code.);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.temaFour {
+  background-image: url(images/vandfald.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.temaFive {
+  background-image: url(images/computer-old.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
